@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  color: #1D1D1D;
+  background-color: #F7F7F7;
+  /* Light grey background from screenshot */
+}
+
+/* Custom Scrollbar for canvas if needed */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
